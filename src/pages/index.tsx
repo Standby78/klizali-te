@@ -39,7 +39,7 @@ export default function Home() {
 					</div>
 					<p className="location">KLIZALIŠTE PULA</p>
 					<p>Broj slobodnih mjesta:</p>
-					<p className="mjesta"> {slots && <>{slots}</>}</p>
+					<p className="mjesta"> {slots && <>{25 - +slots}</>}</p>
 					Radno vrijeme: <p> Ned - Čet: 09:00 - 22:00 </p>
 					<p>Pet - Sub: 09:00 - 23:00</p>
 					<SocialIcons />

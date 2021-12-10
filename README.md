@@ -23,4 +23,3 @@ slots_used table
 ID - Date.now()
 location - string
 slotsUsed - string
-
