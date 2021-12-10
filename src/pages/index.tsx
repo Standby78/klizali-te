@@ -17,7 +17,6 @@ export default function Home() {
 		}
 	}, [lastMessage]);
 
-	console.log(process.env.NEXT_PUBLIC_WEBSOCKET_URL);
 	return (
 		<div>
 			<div className="absolute first" />
@@ -31,6 +30,7 @@ export default function Home() {
 							href="https://www.pula.hr/hr/"
 						>
 							<img
+								alt="Pula logo"
 								width="187px"
 								height="64px"
 								src="/pula-logo.png"

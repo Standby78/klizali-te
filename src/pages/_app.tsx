@@ -27,9 +27,10 @@ export default function MyApp(props: AppProps) {
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta
 					name="description"
-					content="Next.js Client side sign in example"
+					content="Klizalište Pula | 2021"
 					key="description"
 				/>
+				<title>Pula | Klizalište Pula 2021</title>
 			</Head>
 			<AuthProvider>
 				{/* if requireAuth property is present - protect the page */}
